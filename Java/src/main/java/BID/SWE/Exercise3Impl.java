@@ -12,16 +12,16 @@ public class Exercise3Impl extends MapE {
 
     @Override
     public String GetMapName() {
-        return null;
+        return "BID-Map";
     }
 
     @Override
-    public float GetMapSize() {
-        return 0;
+    public float GetMapSize(float amount) {
+        return amount * amount;
     }
 
     @Override
     public int AddNewCells(int count) {
-        return 0;
+        return count;
     }
 }
