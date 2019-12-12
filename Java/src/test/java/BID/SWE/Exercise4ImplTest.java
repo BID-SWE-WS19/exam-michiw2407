@@ -17,7 +17,7 @@ public class Exercise4ImplTest {
     @Test
     public void method1() throws IOException {
         e = new Exercise4Impl();
-//        assertEquals("Frohe Weihnachten 42 false", e.Method1().forEach(str -> str));
+        assertEquals("Frohe Weihnachten 42 false", e.Method1().forEach(str -> str));
     }
 
     @Test
