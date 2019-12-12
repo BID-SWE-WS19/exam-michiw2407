@@ -1,4 +1,5 @@
 package BID.SWE;
 
-public class Laufen {
+class Laufen extends Bewegung {
+
 }

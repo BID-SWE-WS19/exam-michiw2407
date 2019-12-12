@@ -27,6 +27,11 @@ public class Exercise3ImplTest {
     public void addNewCells() {
         e = new Exercise3Impl();
         assertEquals(2, e.AddNewCells(2));
+    }
 
+    @Test
+    public void testSpringen() {
+        Bewegung p = new Springen();
+        assertEquals("2", p.Move(2));
     }
 }
