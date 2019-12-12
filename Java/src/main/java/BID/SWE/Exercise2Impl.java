@@ -1,19 +1,17 @@
 package BID.SWE;
 
-public class Exercise2Impl implements Exercise2
-{
-    @Override
+public class Exercise2Impl extends Cell {
+
     public Object Method1() {
-        return null;
+        return new Cell();
     }
 
     @Override
-    public int Method2() {
-        return 0;
+    public int Grow() {
+        return this._size * 2;
     }
 
-    @Override
-    public boolean Method3(int i) {
-        return false;
+    public boolean Method3(int neighbours) {
+        return neighbours % 2 == 0;
     }
 }
